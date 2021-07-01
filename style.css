@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    letter-spacing: .5rem;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.background-primary {
+    background-color: #c8ede5;
+}
+
+
+.background-secondary {
+    background-color: #e5aae6;
+}
+
+.color-primary {
+    color: #c8ede5;;
+}
+
+.color-secondary {
+    color: #e5aae6;
+}
+
+.sub-text {
+    letter-spacing: .5rem;
+}
+
+.line {
+    width: 50%;
+    margin: auto;
+}
+
+.hover:hover {
+    background-color: #e5aae6;
+    color: white;
+}
+
+.nav-link:hover {
+    transition: .3s ease-in-out;
+    background-color: #e5aae6;
+    color: white !important;
+}
+
+.heavy-weight {
+    font-weight: 700;
+}
+
+.fa-paw {
+    color: #e5aae6;
+    font-size: 2rem;
+}
+
+.logo-size {
+    font-size: 1.5rem;
+}
+
+.about {
+    line-height: 2rem;
+    font-size: 1rem;
+}
