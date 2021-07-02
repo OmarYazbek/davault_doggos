@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -67,4 +68,9 @@ h2 {
 .about {
     line-height: 2rem;
     font-size: 1rem;
+}
+
+.active {
+    background-color: #e5aae6;
+    color: white !important;
 }

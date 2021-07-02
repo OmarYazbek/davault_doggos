@@ -14,8 +14,8 @@
     <script src="https://kit.fontawesome.com/b147bbef33.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
+<body data-bs-spy="scroll" data-bs-target="#navbarMain" data-bs-offset="0" tabindex="0">
+    <nav id="navbarMain" class="navbar navbar-expand-md sticky-top navbar-light bg-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation" >
                 <span class="navbar-toggler-icon"></span>
@@ -24,16 +24,16 @@
             <div class="collapse navbar-collapse" id="navContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item p-2 px-3">
-                        <a class="nav-link" href="">HOME <i class="fa fa-chevron-right d-none d-md-inline"></i></a>
+                        <a class="nav-link active" href="#homeScroll">HOME <i class="fa fa-chevron-right d-none d-md-inline"></i></a>
                     </li>
                     <li class="nav-item p-2 px-3">
-                        <a class="nav-link"href="#about">ABOUT <i class="fa fa-chevron-right d-none d-md-inline"></i></a>
+                        <a class="nav-link" href="#aboutScroll">ABOUT <i class="fa fa-chevron-right d-none d-md-inline"></i></a>
                     </li>
                     <li class="nav-item p-2 px-3">
-                        <a class="nav-link"href="">SERVICES <i class="fa fa-chevron-right d-none d-md-inline"></i></a>
+                        <a class="nav-link" href="#servicesScroll">SERVICES <i class="fa fa-chevron-right d-none d-md-inline"></i></a>
                     </li>
                     <li class="nav-item p-2 px-3">
-                        <a class="nav-link"href="" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT <i class="fa fa-chevron-right d-none d-md-inline"></i></a>
+                        <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT <i class="fa fa-chevron-right d-none d-md-inline"></i></a>
                     </li>
                 </ul>
                 <a type="button" class="btn rounded-pill background-primary px-4 me-3 hover" href="">Book Now!</a>
@@ -81,56 +81,93 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid background-primary">
-        <div class="row row-content">
-            <div class="col pt-5">
-                <img src="img/leaping-dog 1.png" alt="" class="img-fluid mx-auto d-block">
+    <div id="homeScroll"></div>
+        <div class="container-fluid background-primary">
+            <div class="row">
+                <div class="col pt-5">
+                    <img src="img/leaping-dog 1.png" alt="" class="img-fluid mx-auto d-block">
+                </div>
             </div>
-        </div>
-        <div class="row row-content">
-            <div class="col pt-3">
-                <img src="img/txt 1.png" alt="" class="img-fluid mx-auto d-block">
+            <div class="row row-content mt-3">
+                <div class="col pt-3">
+                    <img src="img/txt 1.png" alt="" class="img-fluid mx-auto d-block">
+                </div>
             </div>
-        </div>
-        <div class="row pb-5 pt-3">
-            <div class="col-12">
-                <p class="text-center sub-text">
-                    QUALITY DOG CARE
-                </p>
+            <div class="row pb-5 pt-3">
+                <div class="col-12">
+                    <p class="text-center sub-text">
+                        QUALITY DOG CARE
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="line">
-            <hr class="text-center">
-        </div>
-        <div class="row">
-            <div class="col text-center pt-5">
-                <h2 id="about">ABOUT</h2>
-                <i class="fa fa-paw fa-lg mt-3"></i>
+            <div class="line">
+                <hr class="text-center">
             </div>
-        </div>
-        <div class="container-fluid col-8">
-            <div class="row mt-3">
+            <div class="container-fluid my-5">
                 <h4 class="text-center fst-italic">
                     - Dogs and Us -<br> 
                     We get each other
                 </h4>
-                <div class="row mt-5">
-                    <img src="img/jamie-street-m4BkRRprvP0-unsplash.jpg" alt="" class="col-lg-6 img-fluid mb-5">
-                
-                <p class="col-lg-6 about">
-                    <span class="heavy-weight fst-italic">Davault Doggos</span> is a premier, small capacity dog walking and boarding service. We only board five dogs at a time to ensure that each pup recieves the maximum attention and care that they need. Does your dog play well with others? Any behaviors you would like encouraged or corrected? Do you just need a safe, loving place for your doggo to stay? See below for a list of the services we offer.
-                </p>
             </div>
-            </div>
-            <div class="row">
-                <div class="col text-center pt-5">
-                    <h2 id="about">SERVICES</h2>
-                    <i class="fa fa-paw fa-lg mt-3"></i>
+                <div class="row">
+                    <div class="col text-center pt-5">
+                        <h2 id="aboutScroll">ABOUT</h2>
+                        <i class="fa fa-paw fa-lg mt-3"></i>
+                    </div>
+                </div>
+                <div class="container-fluid col-8">
+                    <div class="row mt-3">
+                        <div class="row mt-5">
+                            <img src="img/jamie-street-m4BkRRprvP0-unsplash.jpg" alt="" class="col-lg-6 img-fluid mb-5">
+                        
+                        <p class="col-lg-6 about">
+                            <span class="heavy-weight fst-italic">Davault Doggos</span> is a premier, small capacity dog walking and boarding service. We only board five dogs at a time to ensure that each pup recieves the maximum attention and care that they need. Does your dog play well with others? Any behaviors you would like encouraged or corrected? Do you just need a safe, loving place for your doggo to stay? See below for a list of the services we offer.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-center pt-5">
+                            <h2 id="servicesScroll">SERVICES</h2>
+                            <i class="fa fa-paw fa-lg mt-3"></i>
+                        </div>
+                    </div>
+                </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="card-group">
+                        <div class="card">
+                            <h3 class="card-img-top text-center">
+                                <i class="fa fa-home"></i>
+                            </h3>
+                            <div class="card-body">
+                                <div class="card-title"></div>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="card-img-top text-center">
+                                <i class="fa fa-home"></i>
+                            </h3>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3 class="card-img-top text-center">
+                                <i class="fa fa-home"></i>
+                            </h3>
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </body>
  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="script.js"></script>
 </body>
 </html>
